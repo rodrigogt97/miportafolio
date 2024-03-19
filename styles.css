@@ -1,0 +1,387 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* header */
+
+h1 {
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav a:hover {
+    color: yellow;
+    font-size: 20px;
+}
+
+nav div {
+    padding: 7px;
+    width: 100px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    background-image: linear-gradient(black,#333333,#5c5c5c,#7d7d7d,#5c5c5c,#333333,black);
+    padding-top: 50px;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+/*Primer bloque*/
+
+
+.primer-bloque {
+    background-color: none;
+    color: #f2f2f2;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.mensaje {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex: column;
+    align-items: center;
+}
+
+
+.imagen-mensaje {
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition-timing-function: linear;
+}
+
+.imagen-mensaje div {
+    width: 60%;
+    height: auto;
+    padding: 25px;
+}
+
+.imagen-mensaje div img {
+    width: 100%;
+}
+
+.imagen-mensaje div img:hover{
+    width: 105%;
+    transition: ease-in;
+    transition-duration: 0.5s; 
+}
+
+
+/* segundo bloque */
+
+.segundo-bloque {
+    background-color: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 25px;
+}
+
+.segundo-bloque img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.segundo-bloque img:hover {
+    width: 105%;
+    box-shadow: 5px 5px 5px black;
+    transition-duration: 0.5s; 
+}
+
+
+.desarrollo-web {
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desarrollo-web div:first-child{
+    height: auto;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.front-end {
+    width: 25%;
+    height: auto;
+    padding: 10px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.front-end div:first-child{
+    height: auto;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.front-end div:last-child{
+    height: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: none
+}
+
+
+.back-end {
+    width: 25%;
+    height: auto;
+    padding: 10px;
+    background-color: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.back-end div:first-child{
+    height: auto;
+    width: 100px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.back-end div:last-child{
+    height: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: none
+}
+
+
+.imagenes {
+    width: 75%;
+    padding: 25px;
+}
+
+/*tercer bloque */
+
+.tercer-bloque {
+    background-color: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.tercer-bloque img {
+    width: 75%;
+}
+
+.tercer-bloque img:hover {
+    width: 80%;
+    box-shadow: 5px 5px 5px black;
+    transition-duration: 0.5s;
+}
+
+.landing-page, .other-portfolios, .power-electric {
+    width: 30%;
+    height: auto;
+    border-width: 3px;
+    padding-bottom: 30px;
+    display: flex;
+    background-color: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* cuatro bloque pagina de contacto */
+
+.cuarto-bloque {
+    color: white;
+    width: 100%;
+    height: auto;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.contenedor {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagen-cuarto-bloque {
+    width: 75%;
+}
+
+.imagen-cuarto-bloque img {
+    width: 100%;
+}
+
+.imagen-cuarto-bloque img:hover {
+    width: 105%;
+    box-shadow: 5px 5px 5px black;
+    transition-duration: 0.5s;
+}
+
+form {
+    font-size: 20px;
+    line-height: 15px;
+}
+
+.boton {
+    font-size: 30px;
+}
+
+/*------------Responsive media -------------*/
+
+
+@media (max-width:700px) {
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .primer-bloque {
+        background-color: none;
+        color: #f2f2f2;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .mensaje {
+        width: 95%;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex: column;
+        align-items: center;
+    }
+    
+    
+    .imagen-mensaje {
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .segundo-bloque {
+        background-color: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .desarrollo-web {
+        width: 95%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .front-end {
+        width: 95%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .back-end {
+        width: 95%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .tercer-bloque {
+        background-color: none;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .landing-page, .other-portfolios, .power-electric {
+        width: 100%;
+        height: auto;
+    }
+}
